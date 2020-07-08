@@ -5,6 +5,7 @@ const passport = require("passport");
 const users = require("./routes/api/users");
 const socketio = require("socket.io");
 const http = require("http");
+const cors = require("cors");
 
 const { addUser, removeUser, getUser, getUsersInRoom } = require("./users.js");
 
