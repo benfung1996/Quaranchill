@@ -3,6 +3,8 @@ const router = express.Router();
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const keys = require("../../config/keys");
+const path = require("path");
+
 // Load input validation
 const validateRegisterInput = require("../../validation/register");
 const validateLoginInput = require("../../validation/login");
@@ -94,8 +96,7 @@ router.post("/login", (req, res) => {
 });
 
 router.use(function(req, res) {
-	res.sendFile(path.join(__dirname, '../client/build/index.html'));
+	res.sendFile(path.join(__dirname, '../../client/build/index.html'));
 });
-
 
 module.exports = router;
