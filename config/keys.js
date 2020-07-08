@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: "mongodb+srv://benfung:Password1@userinfo-e92l1.mongodb.net/userinfo?retryWrites=true&w=majority",
+    mongoURI: process.env.MONGODB_URI || "mongodb://test123:test123@ds121225.mlab.com:21225/heroku_pz3lsb75",
     secretOrKey: "secret"
   };
