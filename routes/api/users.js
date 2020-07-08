@@ -93,9 +93,7 @@ router.post("/login", (req, res) => {
   });
 });
 
-router.use(function(req, res) {
-	res.sendFile(path.join(__dirname, '../client/build/index.html'));
-});
+router.use('*', express.static(path.join(__dirname, "client", "build")))
 
 
 module.exports = router;
