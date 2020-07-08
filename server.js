@@ -71,6 +71,7 @@ require("./config/passport")(passport);
 app.use("/api/users", users);
 app.use("/", users);
 app.use(cors());
+app.use(express.static('client/build'));
 
 const port = process.env.PORT || 5000; // process.env.port is Heroku's port if you choose to deploy the app there
 server.listen(port, () => console.log(`Server up and running on port ${port} !`));
