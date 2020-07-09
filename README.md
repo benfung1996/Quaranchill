@@ -10,7 +10,7 @@ Our Quaranchill website is a way to reconnect with other people. Quaranchill is 
 - Express
 
 ## Authors
-Ben Fung - Back End, Login Checks & Cookie Implementation & Routing to Update Database
-Sandesh Charka - Front End Javascript Logic for AJAX calls
-Phuong Quyen Le - Front End Design & Implementation
-Colin Chang - Front End Design & Implementation, Mobile Responsiveness
+- Ben Fung - Back End, Routing to Update Database, Login Checks
+- Sandesh Charka - Front End Javascript Logic for AJAX calls, Login Checks
+- Phuong Quyen Le - Front End Design & Implementation
+- Colin Chang - Front End Design and Front End Javascript Logic
