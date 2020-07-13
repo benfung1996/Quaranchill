@@ -1,6 +1,6 @@
 import React from 'react';
-
-import onlineIcon from '../InfoBar/onlineIcon.png';
+import InfoBar from "../InfoBar/InfoBar";
+import onlineStatus from './onlineStatus.png';
 
 import './TextContainer.css';
 
@@ -10,16 +10,17 @@ const TextContainer = ({ users }) => (
       users
         ? (
           <div>
-            <h4>Users in Chatroom:</h4><hr></hr>
+            <InfoBar/>
+            <h5>Users in Chatroom:</h5>
             <div className="activeContainer">
-              <h4>
+              <h5>
                 {users.map(({name}) => (
                   <div key={name} className="activeItem">
-                    <img className="img" alt="Online Icon" src={onlineIcon}/>
+                    <img className="img" alt="Online Icon" src={onlineStatus}/>
                     {name}
                   </div>
                 ))}
-              </h4>
+              </h5>
             </div>
           </div>
         )

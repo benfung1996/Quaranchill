@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #2979FF;
+    background: #ee6e73 ;
     border-radius: 4px 4px 0 0;
     height: 60px;
     width: 100%;
@@ -25,4 +25,10 @@
   
   .onlineIcon {
     margin-right: 5%;
+    height: 50px;
+    width: 50px;
+  }
+
+  .roomName {
+    padding-bottom: 10px;
   }

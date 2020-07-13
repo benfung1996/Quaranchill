@@ -10,25 +10,20 @@ export default function Join() {
             <div className="joinInnerContainer">
                 <h1 className="heading">Join</h1>
                 <div>
-                    <input placeholder="Name" className="joinInput" type="text"
+                    <input placeholder=" Name" className="joinInput name" type="text"
                         onChange={(event) => setName(event.target.value)} />
                 </div>
                 <div>
-                    <input placeholder="Room" className="joinInput mt-20" type="text"
-                        onChange={(event) => setRoom(event.target.value)} />
+                    <select className="browser-default" onChange={(event) => setRoom(event.target.value)}>
+                        <option value="" disabled selected>Choose chatroom</option>
+                        <option value="Music">Music</option>
+                        <option value="Game">Game</option>
+                        <option value="Movie">Movie</option>
+                    </select>
                 </div>
                 <Link onClick={event => (!name || !room) ? event.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
-                    <button className="button mt-20" type="submit">Sign In</button>
+                    <button className="button mt-20 amber accent-3" type="submit">Enter Chatroom</button>
                 </Link>
-            </div>
-            <div className="joinInnerContainer">
-                <h1 className="heading">Chatroom List: </h1>
-                <ul>
-                    <li className="joinInput">Music</li>
-                    <li className="joinInput">Game</li>
-                    <li className="joinInput">Movies</li>
-                    <hr className="headline"></hr>
-                </ul>
             </div>
 
         </div>
