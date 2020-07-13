@@ -4,16 +4,21 @@ Our Quaranchill website is a way to reconnect with other people. Quaranchill is 
 ## Deployed App
 https://quaranchill.herokuapp.com/dashboard
 
+![](images/Join.png)
+![](images/Landing.png)
+
+## Instruction
+1) Register user account
+2) Login with user acccount
+3) Click "Join" button to enter chatroom
+4) Enter display name and select room base on interest
+5) Start chatting!
+
 ## Tech Stack
-- React
-- React bootstrap
-- Socket.io
-- MongoDB/Mongoose
-- BCrypt
-- Express
+React, MongoDB, Express, Node, Socket.io, Bcrypt, Passport, JWT, Redux, Materialize, Heroku.
 
 ## Authors
-- Ben Fung - Back End, Routing to Update Database, Login Checks
+- Ben Fung - Back End, Routing to Update Database, Authentication, Chatroom
 - Sandesh Charka - Front End Javascript Logic for AJAX calls, Login Checks
 - Phuong Quyen Le - Front End Design & Implementation
 - Colin Chang - Front End Design and Front End Javascript Logic
