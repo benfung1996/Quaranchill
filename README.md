@@ -4,8 +4,8 @@ Our Quaranchill website is a way to reconnect with other people. Quaranchill is 
 ## Deployed App
 https://quaranchill.herokuapp.com/dashboard
 
-![](Images/Join.png)
 ![](Images/Landing.png)
+![](Images/Join.png)
 
 ## Instruction
 1) Register user account
