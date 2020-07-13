@@ -7,6 +7,14 @@
     display: inline-block;
     max-width: 80%;
   }
+
+.currentUser {
+  background: #ee6e73;
+}
+
+.otherUser {
+  background:#424242;
+}
   
   .messageText {
     width: 100%;

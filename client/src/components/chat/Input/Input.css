@@ -2,15 +2,17 @@
     display: flex;
     border-top: 2px solid #D3D3D3;
   }
-  
-  .input {
-    border: none;
-    border-bottom: 0;
-    border-radius: 0;
-    padding: 1%;
-    width: 80%;
-    font-size: 1.2em;
-    margin: 0px;
+
+  .input[type=text]:not(.browser-default) {
+    border-bottom: 0px;
+    height: 100%;
+    padding: 0 10px;
+  }
+
+  .input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
   
   input:focus, textarea:focus, select:focus{
@@ -25,5 +27,6 @@
     padding: 20px;
     display: inline-block;
     border: none;
+    border-radius: 5%;
     width: 20%;
   }
