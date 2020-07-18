@@ -20,6 +20,5 @@ React, MongoDB, Express, Node, Socket.io, Bcrypt, Passport, JWT, Redux, Material
 
 ## Authors
 - Ben Fung - Back End, Routing to Update Database, Authentication, Chatroom
-- Sandesh Charka - Front End Javascript Logic for AJAX calls, Login Checks
 - Phuong Quyen Le - Front End Design & Implementation
 - Colin Chang - Front End Design and Front End Javascript Logic
